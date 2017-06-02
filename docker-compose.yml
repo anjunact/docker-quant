@@ -1,0 +1,6 @@
+web:
+  build: php
+  volumes:
+    - ./code:/var/www/html
+  ports:
+    - '888:80'
