@@ -1,0 +1,275 @@
+      USER	   PID	COMMAND
+      root	     1	launchd
+      root	    50	UserEventAgent
+      root	    51	syslogd
+      root	    53	uninstalld
+      root	    54	kextd
+      root	    55	fseventsd
+    nobody	    58	dnsmasq
+_appleeven	    61	appleeventsd
+      root	    62	configd
+      root	    63	powerd
+      root	    67	nginx
+      root	    70	logd
+      root	    72	QQMacMgrAgent
+      root	    75	airportd
+      root	    76	warmd
+      root	    78	mds
+      root	    86	diskarbitrationd
+      root	    89	coreduetd
+      root	    96	wirelessproxd
+      root	    98	apsd
+      root	    99	com.docker.vmnet
+      root	   100	nbstated
+      root	   101	launchservicesd
+  _usbmuxd	   102	usbmuxd
+      root	   103	securityd
+_locationd	   105	locationd
+_displaypo	   107	displaypolicyd
+      root	   108	DuetHeuristic-BM
+      root	   109	blued
+      root	   110	autofsd
+      root	   113	kdc
+      root	   115	revisiond
+      root	   116	logind
+     anjun	   117	loginwindow
+      root	   118	KernelEventAgent
+     _hidd	   120	hidd
+      root	   121	corebrightnessd
+      root	   122	AirPlayXPCHelper
+      root	   124	notifyd
+ _distnote	   126	distnoted
+      root	   128	cfprefsd
+      root	   129	coreservicesd
+      root	   130	taskgated
+      root	   132	authd
+      root	   143	trustd
+      root	   144	com.apple.ctkpcs
+_windowser	   191	WindowServer
+      root	   192	lsd
+_mdnsrespo	   193	mDNSResponder
+      root	   196	mDNSResponderHel
+_coreaudio	   197	coreaudiod
+      root	   201	mds_stores
+      root	   210	com.apple.Ambien
+     anjun	   211	nginx
+     anjun	   212	nginx
+      root	   222	CVMServer
+      root	   228	CrashReporterSup
+_nsurlsess	   240	nsurlsessiond
+      root	   242	ntpd
+      root	   243	usbd
+      root	   244	thermald
+      root	   246	VDCAssistant
+      root	   247	socketfilterfw
+ _networkd	   261	symptomsd
+      root	   264	com.apple.Perfor
+      root	   310	sharedfilelistd
+      root	   315	watchdogd
+      root	   337	storeaccountd
+_captiveag	   338	captiveagent
+  _netbios	   342	netbiosd
+      root	   348	securityd_servic
+     anjun	   349	cfprefsd
+     anjun	   352	UserEventAgent
+     anjun	   354	distnoted
+     anjun	   356	lsd
+     anjun	   357	CommCenter
+     anjun	   358	Dock
+     anjun	   360	SystemUIServer
+     anjun	   361	Finder
+     anjun	   362	secd
+     anjun	   365	trustd
+     anjun	   366	sharingd
+     anjun	   367	pboard
+     anjun	   368	bird
+     anjun	   370	identityservices
+     anjun	   372	accountsd
+      root	   374	TMCacheDelete
+      root	   376	installd
+     anjun	   377	cloudphotosd
+     anjun	   378	storedownloadd
+      root	   379	system_installd
+     anjun	   386	secinitd
+     anjun	   389	sharedfilelistd
+     anjun	   391	tccd
+     anjun	   392	fontd
+     anjun	   393	com.apple.CloudP
+      root	   394	filecoordination
+     anjun	   399	nsurlstoraged
+     anjun	   401	callservicesd
+     anjun	   405	useractivityd
+     anjun	   406	com.apple.dock.e
+     anjun	   408	usernoted
+     anjun	   409	iTunesHelper
+     anjun	   410	Spotlight
+     anjun	   411	FinderSync
+     anjun	   412	TransmitMenu
+     anjun	   413	EvernoteHelper
+     anjun	   415	CalendarAgent
+     anjun	   416	imagent
+     anjun	   420	Google Chrome
+     anjun	   422	com.apple.hiserv
+     anjun	   425	ContactsAccounts
+     anjun	   430	storeassetd
+_gamecontr	   431	gamecontrollerd
+     anjun	   433	storeaccountd
+     anjun	   434	imklaunchagent
+     anjun	   435	BaiduIM
+     anjun	   439	crashpad_handler
+     anjun	   447	cloudd
+     anjun	   451	Google Chrome He
+     anjun	   452	WiFiProxy
+     anjun	   453	nsurlsessiond
+     anjun	   467	nbagent
+     anjun	   473	com.apple.Commer
+     anjun	   474	photolibraryd
+     anjun	   481	Google Chrome He
+     anjun	   484	Google Chrome He
+     anjun	   485	Google Chrome He
+     anjun	   486	Google Chrome He
+     anjun	   487	Google Chrome He
+     anjun	   488	Google Chrome He
+     anjun	   489	Google Chrome He
+     anjun	   490	Google Chrome He
+     anjun	   491	Google Chrome He
+     anjun	   493	Google Chrome He
+     anjun	   494	Google Chrome He
+     anjun	   496	assistantd
+     anjun	   498	RosettaStoneDaem
+     anjun	   499	FolderActionsDis
+     anjun	   503	SogouServices
+     anjun	   504	SocialPushAgent
+     anjun	   506	mongod
+     anjun	   510	NotificationCent
+     anjun	   511	Siri
+     anjun	   513	icdd
+     anjun	   514	java
+     anjun	   517	Loop
+     anjun	   518	watchman
+     anjun	   520	askpermissiond
+     anjun	   521	DAEMONToolsAgent
+     anjun	   523	AirPlayUIAgent
+     anjun	   524	VOXAgent
+     anjun	   525	cloudpaird
+     anjun	   527	php-fpm
+     anjun	   530	WiFiAgent
+     anjun	   531	diagnostics_agen
+     anjun	   533	passd
+     anjun	   540	TISwitcher
+     anjun	   545	gamed
+     anjun	   560	QQMacMgrMonitor
+     anjun	   561	AAM Updates Noti
+      root	   574	com.disc-soft.DA
+     anjun	   580	Docker
+     anjun	   599	com.docker.osx.h
+     anjun	   601	com.docker.osx.h
+     anjun	   602	com.docker.db
+     anjun	   603	com.docker.osxfs
+     anjun	   604	com.docker.slirp
+     anjun	   605	com.docker.osx.h
+     anjun	   606	com.docker.drive
+     anjun	   607	com.docker.osx.h
+     anjun	   608	com.docker.drive
+     anjun	   615	com.docker.hyper
+     anjun	   619	storelegacy
+      root	   624	storeinstalld
+     anjun	   625	LaterAgent
+      root	   635	SubmitDiagInfo
+     anjun	   636	IMRemoteURLConne
+     anjun	   637	mediaremoteagent
+     anjun	   643	mdflagwriter
+     anjun	   649	USBAgent
+     anjun	   655	AppleSpell
+      root	   658	syspolicyd
+     anjun	   660	diskimages-helpe
+      root	   666	hdiejectd
+      root	   695	mdflagwriter
+_spotlight	   712	mdworker
+_spotlight	   713	distnoted
+     anjun	  1973	iTerm2
+     anjun	  1975	iTerm2
+      root	  1976	login
+     anjun	  1977	zsh
+     anjun	  2834	iTerm2
+      root	  2835	login
+     anjun	  2836	zsh
+      root	  3679	sudo
+     anjun	  4736	php-fpm
+     anjun	  4737	php-fpm
+      root	  4741	opendirectoryd
+     anjun	  4747	php-fpm
+     anjun	  5348	Google Chrome He
+      root	  5350	AppleCameraAssis
+     anjun	  6164	postgres
+     anjun	  6171	postgres
+     anjun	  6172	postgres
+     anjun	  6173	postgres
+     anjun	  6174	postgres
+     anjun	  6175	postgres
+     anjun	  6803	VBoxXPCOMIPCD
+     anjun	  6805	VBoxSVC
+     anjun	  6837	VBoxNetDHCP
+     anjun	  7483	mdworker
+     anjun	  7946	sh
+     anjun	  8058	mysqld
+     anjun	 13483	pycharm
+     anjun	 14140	fsnotifier
+     anjun	 14176	zsh
+     anjun	 14828	Google Chrome He
+     anjun	 14840	Google Chrome He
+     anjun	 21028	LookupViewServic
+     anjun	 22020	iTerm2
+      root	 22021	login
+     anjun	 22022	zsh
+     anjun	 24781	WeChat
+     anjun	 24793	VirtualBoxVM
+      root	 24866	mediaremoted
+     anjun	 24876	soagent
+      root	 24887	WirelessRadioMan
+      root	 24888	awdd
+      root	 24892	ocspd
+      root	 24894	sysmond
+      root	 24898	spindump
+     anjun	 24899	spindump_agent
+      root	 24900	coresymbolicatio
+     anjun	 24906	networkservicepr
+      root	 24960	com.apple.CodeSi
+      root	 24969	com.apple.geod
+      root	 24970	secinitd
+      root	 24988	amfid
+     anjun	 25088	iconservicesagen
+_iconservi	 25089	iconservicesd
+     anjun	 25209	CalNCService
+      root	 25244	systemsoundserve
+      root	 25245	com.apple.audio.
+     anjun	 25378	akd
+     anjun	 25658	com.apple.speech
+     anjun	 25886	Google Chrome He
+     anjun	 25949	pbs
+     anjun	 25972	Google Chrome He
+_softwareu	 26064	softwareupdated
+     anjun	 26065	mapspushd
+     anjun	 26067	suggestd
+     anjun	 26068	parsecd
+     anjun	 26069	photoanalysisd
+     anjun	 26071	com.apple.geod
+      root	 26072	sandboxd
+      root	 26074	suhelperd
+      root	 26075	mobileassetd
+     anjun	 26082	softwareupdate_n
+     anjun	 26551	Google Chrome He
+     anjun	 27107	Google Chrome He
+      root	 28786	bootpd
+     anjun	 28845	iTerm2
+      root	 28846	login
+      root	 28847	com.apple.Accoun
+     anjun	 28848	zsh
+     anjun	 29044	mdworker
+     anjun	 29424	mdworker
+     anjun	 29426	mdworker
+     anjun	 29427	mdworker
+     anjun	 29429	Sublime Text
+     anjun	 29438	plugin_host
+     anjun	 29659	quicklookd
+     anjun	 29932	pidof
