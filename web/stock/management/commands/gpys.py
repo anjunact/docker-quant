@@ -15,26 +15,35 @@ def run():
         grades = html.select('.grade span')
         if len(grades)==0:
             continue
-        grade = grades[0].text
-        ggzs = html.select('#STech')[0].text
-        bkzs = html.select('#BTechBlock')[0].text
-        hybj = html.select('#SIndustry')[0].text
-        jgdx = html.select('#SMajor')[0].text
-        xypc = html.select('#SMsg')[0].text
-        gsyy = html.select('#SBasic')[0].text
+        try:
+            grade = grades[0].text
+            ggzs = html.select('#STech')[0].text
+            bkzs = html.select('#BTechBlock')[0].text
+            hybj = html.select('#SIndustry')[0].text
+            jgdx = html.select('#SMajor')[0].text
+            xypc = html.select('#SMsg')[0].text
+            gsyy = html.select('#SBasic')[0].text
+        except Exception as e:
+            print(e)
+            continue
+
         if(stock.gpys):
             continue
             gpys= stock.gpys
         else:
             gpys = GPYS()
+        try:
+            gpys.grade = grade
+            gpys.ggzs = Decimal(ggzs)
+            gpys.bkzs = Decimal(bkzs)
+            gpys.hybj = Decimal(hybj)
+            gpys.jgdx = Decimal(jgdx)
+            gpys.xypc = Decimal(xypc)
+            gpys.gsyy = Decimal(gsyy)
+        except Exception as e:
+            print(e)
+            continue
 
-        gpys.grade = grade
-        gpys.ggzs = Decimal(ggzs)
-        gpys.bkzs = Decimal(bkzs)
-        gpys.hybj = Decimal(hybj)
-        gpys.jgdx = Decimal(jgdx)
-        gpys.xypc = Decimal(xypc)
-        gpys.gsyy = Decimal(gsyy)
         stock = Stock.objects.filter(code=stock.code).get()
         gpys.save()
         stock.gpys = gpys

@@ -1,4 +1,5 @@
-
+# -*- coding:utf8 -*-
+import codecs
 from django.core.management.base import BaseCommand, CommandError
 from stock.models import Stock as Stock
 import tushare as ts
@@ -10,7 +11,7 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         df = ts.get_stock_basics()
         df.to_csv('a.csv', encoding='utf-8',columns=['name'])
-        with open('a.csv') as f:
+        with open('a.csv', encoding='utf-8') as f:
             reader = csv.reader(f)
             for i,row in enumerate(reader):
                 if i==0:
